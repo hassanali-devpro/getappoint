@@ -76,64 +76,132 @@ const works = [
 const services = [
     {
         img: `${images.icon_diamond}`,
-        title: "UI / UX DESIGN",
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+        title: "Talent Connection",
+        text: 'We match companies with experienced and highly qualified candidates.'
     },
     {
         img: `${images.icon_archer}`,
-        title: "WEB DEVELOPMENT",
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+        title: "Permanent Placements",
+        text: 'Full-time permanent placement services for advanced roles.'
     },
     {
         img: `${images.icon_phone}`,
-        title: "APP / MOBILE",
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+        title: "Temporary Contracts",
+        text: 'Staffing solutions for temporary and short-term needs.'
     },
     {
         img: `${images.icon_console}`,
-        title: "GAME DESIGN",
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+        title: "Contract-to-Hire",
+        text: 'Seamless transitions from contract to permanent employment.'
     },
     {
         img: `${images.icon_plane}`,
-        title: "SEO / MARKETING",
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+        title: "National & International Recruitment",
+        text: 'Specializing in both domestic and global recruitment services.'
     },
     {
         img: `${images.icon_star}`,
-        title: "PHOTOGRAPHY",
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+        title: "Custom Recruiting Solutions",
+        text: 'Tailored recruitment solutions to meet specific hiring requirements.'
     },
     {
         img: `${images.icon_fantasy}`,
-        title: "GRAPHIC DESIGN",
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+        title: "HR Consulting",
+        text: 'Expert guidance on HR strategies, legal compliance, and management.'
     },
     {
         img: `${images.icon_paint}`,
-        title: "ILLUSTRATIONS",
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+        title: "Payroll Processing",
+        text: 'Comprehensive payroll management services, from salaries to taxes.'
     }
 ];
+
 
 // testimonials
 const testimonials = [
-    {
-        name: "Christine Troughton, BPTC Officer",
-        text: "The staff and support are second to none. They are polished, proficient, accessible and patient.",
-    },
-    {
-        name: "Michael Hopkins",
-        text: "Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap."
-    },
-    {
-        name: "Terry Overacker",
-        text: "We completed our product website with Dev.Point and are so excited to have it live!! It is so professionally done and eye appealing, not to mention how great it looks and works. We love how easy it is to make changes ourselves, yet know we have the support when/if we need it."
-    },
-    {
-        name: "Tim K. & Kristen H.",
-        text: "When you choose Dev.Point you get a wonderful, professional team with innovative ideas, awesome customer service, and exactly what you're looking for. It took the ideas that we had and put them perfecly on the web."
-    }
+  {
+      name: "Christine Troughton, BPTC Officer",
+      text: "Get Appoint’s support has been invaluable. Their recruiters understand our needs and have consistently connected us with top-tier talent, streamlining our hiring process.",
+  },
+  {
+      name: "Michael Hopkins",
+      text: "The team at Get Appoint exceeded our expectations. Their innovative approach to recruitment made it easy for us to find the right candidates quickly, and I look forward to partnering with them again."
+  },
+  {
+      name: "Terry Overacker",
+      text: "Working with Get Appoint has transformed our hiring process. Their attention to detail and understanding of our industry needs has resulted in fantastic placements that fit our company culture perfectly."
+  },
+  {
+      name: "Tim K. & Kristen H.",
+      text: "Choosing Get Appoint means collaborating with true professionals who genuinely care about our success. They not only filled our roles efficiently but also guided us through the entire process."
+  }
 ];
 
-export default {skills, stats, works, services, testimonials};
+
+
+export const Industry = [
+  {
+    title: 'IT',
+    text: 'We connect IT companies with top talent to manage their infrastructure, software development, security, and more, ensuring they achieve their goals with skilled professionals in every area of technology.'
+  },
+  {
+    title: 'Health Care',
+    text: 'We provide the healthcare industry with highly qualified professionals for roles in EHR development, patient management, telemedicine platforms, and more to meet evolving demands.'
+  },
+  {
+    title: 'Automotive',
+    text: 'Our recruitment solutions help automotive companies hire experts for vehicle control systems, driver assistance, and infotainment to innovate and improve customer experience.'
+  },
+  {
+    title: 'Media & Entertainment',
+    text: 'We specialize in sourcing creative and technical talent for media and entertainment companies to develop and deliver cutting-edge content, ensuring an engaged audience and strong revenue.'
+  },
+  {
+    title: 'Logistics',
+    text: 'We recruit skilled professionals for logistics companies to manage fleet operations, warehouse tracking, and supply chain optimization, helping reduce costs and enhance efficiency.'
+  },
+  {
+    title: 'Construction',
+    text: 'Our recruitment solutions focus on providing construction companies with top talent in project management, CAD, and BIM to improve communication, reduce errors, and enhance safety on-site.'
+  },
+  {
+    title: 'E-Commerce',
+    text: 'We connect eCommerce companies with skilled professionals to build and grow their online platforms, streamlining operations from payment processing to CRM and marketing automation.'
+  },
+  {
+    title: 'Real Estate',
+    text: 'We help real estate firms hire experts for property management, lead generation, and transaction closing, enhancing service quality and boosting deal closure rates.'
+  },
+  {
+    title: 'Education',
+    text: 'We provide educational institutions with skilled professionals for roles in administration, learning management, and performance tracking to improve engagement and streamline operations.'
+  },
+  {
+    title: 'Finance and Banking',
+    text: 'We recruit top talent in finance and banking, specializing in roles like financial analysis, risk management, and compliance to help firms meet their regulatory and operational goals.'
+  },
+  {
+    title: 'Manufacturing',
+    text: 'We connect manufacturing companies with experts in production management, automation, and quality control, ensuring optimal output and operational efficiency.'
+  },
+  {
+    title: 'Hospitality',
+    text: 'We source qualified personnel for hospitality businesses, including roles in management, customer service, and operations, ensuring a seamless guest experience.'
+  },
+  {
+    title: 'Energy and Utilities',
+    text: 'We specialize in finding highly skilled professionals for the energy and utilities sector, from engineers to technicians, ensuring effective operations and sustainability.'
+  },
+  {
+    title: 'Pharmaceuticals and Biotechnology',
+    text: 'We provide recruitment services for the pharmaceutical and biotech industries, offering specialists in research, development, production, and regulatory compliance to advance medical innovation.'
+  },
+  {
+    title: 'Retail',
+    text: 'We recruit professionals for retail companies to manage operations, customer engagement, inventory, and marketing, ensuring businesses meet their sales and growth objectives.'
+  }
+];
+
+
+
+export default {skills, stats, works, services, testimonials, Industry};

@@ -1,4 +1,3 @@
-import React from "react";
 import data from "../../constants/data";
 import "./Testimonials.css";
 import {FaQuoteLeft, FaQuoteRight} from "react-icons/fa";

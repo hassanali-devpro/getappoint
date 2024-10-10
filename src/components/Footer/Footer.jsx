@@ -14,7 +14,7 @@ const Footer = () => {
                     {/* Contact Information */}
                     <div>
                         <a href="mailto:someone@gmail.com" className="block text-2xl mb-4">someone@gmail.com</a>
-                        <span>+44 986 689 009</span>
+                        <span>+92 348 8728285</span>
                     </div>
 
                     {/* Projects Links */}
